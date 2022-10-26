@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="partical.js"></script>
+
+  </head>
+
+  <body>
+
+
+    <div id="sketch">
+
+  </div>
+
+    <h1>Welcome to my schedule!</h1>
+
+
+    <div id="schedule">
+        <svg width="541" height="340" id="svg" style="background-color:green">
+      
+            <rect x="0" y="0" width="50" height="40" fill = "#8cc1c9" stroke-width = "3" stroke ="white"/>
+            <rect x="60" y="0" width="100" height="40" fill = "#2292a4" stroke-width = "3" stroke ="white"/>
+            <rect x="170" y="0" width="170" height="40" fill = "#d96c06" stroke-width = "3" stroke ="white"/>
+            <rect x="350" y="0" width="30" height="40" fill = "#bdbf09" stroke-width = "3" stroke ="white"/>
+            <rect x="390" y="0" width="150" height="40" fill = "#70a957" stroke-width = "3" stroke ="white"/>
+    
+            
+            <rect x="0" y="50" width="50" height="40" fill = "#8bc1c9" stroke-width = "3" stroke ="white"/>
+            <rect x="60" y="50" width="120" height="40" fill = "#4A9E7E" stroke-width = "3" stroke ="white"/>
+            <rect x="190" y="50" width="80" height="40" fill = "#CB9607" stroke-width = "3" stroke ="white"/>
+            <rect x="280" y="50" width="100" height="40" fill = "#D96C05" stroke-width = "3" stroke ="white"/>
+            <rect x="390" y="50" width="150" height="40" fill = "#70a957" stroke-width = "3" stroke ="white"/>
+    
+    
+            <rect x="0" y="100" width="100" height="40" fill = "#2292a4" stroke-width = "3" stroke ="white"/>
+            <rect x="110" y="100" width="100" height="40" fill = "#4A9E7E" stroke-width = "3" stroke ="white"/>
+            <rect x="220" y="100" width="50" height="40" fill = "#CB9607" stroke-width = "3" stroke ="white"/>
+            <rect x= "280" y="100" width="100" height="40" fill = "#D96C05" stroke-width = "3" stroke ="white"/>
+            <rect x="390" y="100" width="150" height="40" fill = "#70a957" stroke-width = "3" stroke ="white"/>
+    
+            
+            <rect x="0" y="150" width="50" height="40" fill = "#8bc1c9" stroke-width = "3" stroke ="white"/>
+            <rect x="60" y="150" width="100" height="40" fill = "#4A9E7E" stroke-width = "3" stroke ="white"/>
+            <rect x="170" y="150" width="100" height="40" fill = "#278696" stroke-width = "3" stroke ="white"/>
+            <rect x="280" y="150" width="100" height="40" fill = "#D96C05" stroke-width = "3" stroke ="white"/>
+            <rect x="390" y="150" width="150" height="40" fill = "#70a957" stroke-width = "3" stroke ="white"/>
+    
+            
+            <rect x="0" y="200" width="120" height="40" fill = "#4A9E7E" stroke-width = "3" stroke ="white"/>
+            <rect x="130" y="200" width="90" height="40" fill = "#278696" stroke-width = "3" stroke ="white"/>
+            <rect x="230" y="200" width="150" height="40" fill = "#D96C05" stroke-width = "3" stroke ="white"/>
+            <rect x="390" y="200" width="150" height="40" fill = "#70a957" stroke-width = "3" stroke ="white"/>
+    
+            <rect x="0" y="250" width="50" height="40" fill = "#8BC1C9" stroke-width = "3" stroke ="white"/>
+            <rect x="60" y="250" width="80" height="40" fill = "#4A9E7E" stroke-width = "3" stroke ="white"/>
+            <rect x="150" y="250" width="80" height="40" fill = "#2292A4" stroke-width = "3" stroke ="white"/>
+            <rect x="240" y="250" width="140" height="40" fill = "#D96C05" stroke-width = "3" stroke ="white"/>
+            <rect x="390" y="250" width="150" height="40" fill = "#70a957" stroke-width = "3" stroke ="white"/>
+    
+            
+            <rect x="0" y="300" width="50" height="40" fill = "#8BC1C9" stroke-width = "3" stroke ="white"/>
+            <rect x="60" y="300" width="100" height="40" fill = "#278696" stroke-width = "3" stroke ="white"/>
+            <rect x="170" y="300" width="170" height="40" fill = "#C2660F" stroke-width = "3" stroke ="white"/>
+            <rect x="350" y="300" width="30" height="40" fill = "#BCBF06" stroke-width = "3" stroke ="white"/>
+            <rect x="390" y="300" width="150" height="40" fill = "#70a957" stroke-width = "3" stroke ="white"/>
+    
+        </svg>
+    </div>
+    
+    <div id="legend">
+        <svg width="400" height="300">
+    
+        <rect x="0" y="30" width="30" height="30" fill = "#8cc1c9" stroke-width = "3" stroke ="white"/> 
+        <rect x="0" y="70" width="30" height="30" fill = "#BCBF06" stroke-width = "3" stroke ="white"/>
+        <rect x="0" y="110" width="30" height="30" fill = "#D96C05" stroke-width = "3" stroke ="white"/>
+        <rect x="0" y="150" width="30" height="30" fill = "#CB9607" stroke-width = "3" stroke ="white"/>
+        <rect x="0" y="190" width="30" height="30" fill = "#4A9E7E" stroke-width = "3" stroke ="white"/>
+        <rect x="0" y="230" width="30" height="30" fill = "#2292A4" stroke-width = "3" stroke ="white"/>
+    
+        </svg>
+    </div>
+    
+    <div id="description">
+        <p>Eating/Working Out</p>
+        <p>Getting To Bed</p>
+        <p>Social</p>
+        <p>Club Meeting</p>
+        <p>Class</p>
+        <p>Studying</p> 
+    </div>
+    
+        <script src="sketch.js"></script>
+        <script src="partical.js"></script>
+
+
+
+  </body>
+</html>
